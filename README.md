@@ -6,11 +6,6 @@ Este repositorio contiene el código y los recursos utilizados para desarrollar 
 
 El objetivo principal de este trabajo práctico es implementar LightFM para desarrollar un sistema de recomendación. Se busca evaluar la efectividad del modelo en la tarea de recomendar 20 animes a usuarios de la plataforma myanimelist.net
 
-## Autores
-- Keiver Nuñez
-- Guadalupe Rodriguez
-- Nicolás Guillou
-  
 ## Contenido del Repositorio
 
 ### Archivos Principales
@@ -26,8 +21,6 @@ El objetivo principal de este trabajo práctico es implementar LightFM para desa
 - 'Recomendaciones.csv': Dataset que contiene las recomendaciones de 20 animes (anime\_id) para cada usuario (user\_id).
 
 - 'Presentación TP_FINAL - Sistemas de Recomendación.pptx': Presentación del trabajo práctico final.
-
-### Recursos (https://drive.google.com/drive/folders/185f5mief9EWhdIrkwL2qP9eqLebfIPuO?usp=sharing)
 
 - 'rating\_complete\_filtrado.csv': Dataset obtenido a partir del filtrado del dataset original 'rating\_complete.csv', considerando solo los casos de usuarios que hayan puesto puntaje a más de 150 animes. Esto se hizo con el objetivo de reducir la dimensionalidad.
 
@@ -55,11 +48,4 @@ El objetivo principal de este trabajo práctico es implementar LightFM para desa
 
 - **MAP(Mean Average Precision):** Promedia la precisión en la lista de recomendaciones para todos los usuarios, ofreciendo una visión general de la efectividad del sistema.
 
-## Instrucciones de Uso
-
-1. Clonar este repositorio:
-
-\```bash
-
-git clone https://github.com/neguillou/tpicarogrupo2.git
 
